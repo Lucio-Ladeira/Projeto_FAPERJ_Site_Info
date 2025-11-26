@@ -729,7 +729,7 @@ section {
 
 .destaque-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 8px 24px rgba(131, 172, 189, 0.2);
+    box-shadow: 0 8px 24px rgba(131, 172, 189, 0.6);
 }
 
 .destaque-icon {
