@@ -152,7 +152,7 @@ main {
 .hero {
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgb(0,0,0, .5), rgb(0,0,0, .5) ), url(Projeto_FAPERJ_Site_Info/img/background.jpg);
+    background-image: linear-gradient(rgb(0,0,0, .5), rgb(0,0,0, .5) ), url(/img/background.jpg);
     color: var(--color-text-light);
     padding: 6rem var(--spacing-lg);
     text-align: center;
