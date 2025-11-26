@@ -150,7 +150,9 @@ main {
 
 /* ===== HERO SECTION ===== */
 .hero {
-    background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-dark-secondary) 100%);
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgb(0,0,0, .5), rgb(0,0,0, .5) ), url( /img/backgrond.jpg ) ;
     color: var(--color-text-light);
     padding: 6rem var(--spacing-lg);
     text-align: center;
