@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com o Curso Técnico em Informática da FAETEC Santa Cruz para dúvidas sobre o curso, matrícula ou parcerias.">
+    <meta name="keywords" content="FAETEC, Informática, Curso Técnico, Santa Cruz, Contato, Formulário, Endereço">
+    
+    <title>Contato - FAETEC Santa Cruz</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- ===== HEADER / NAVEGAÇÃO ===== -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <span class="logo-icon">⚙️</span>
+                        <span class="logo-text">FAETEC Santa Cruz</span>
+                    </a>
+                </div>
+                
+                <!-- Menu Hamburger (Mobile) -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <!-- Navegação -->
+                <nav class="nav" id="navMenu">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Início</a></li>
+                        <li><a href="sobre.html" class="nav-link">Sobre o Curso</a></li>
+                        <li><a href="professores.html" class="nav-link">Professores</a></li>
+                        <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+                        <li><a href="contato.html" class="nav-link active">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== SEÇÃO CONTATO ===== -->
+    <main>
+        <section id="contato" class="contato page-section">
+            <div class="container">
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-intro">
+                    Tem dúvidas sobre o curso, processo de matrícula ou interesse em parcerias? Envie uma mensagem através do formulário abaixo ou utilize nossos canais de contato direto.
+                </p>
+                
+                <div class="contato-wrapper">
+                    <form class="contato-form" id="contatoForm">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required placeholder="seu.email@exemplo.com">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Sua mensagem..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                    
+                    <!-- Informações de Contato -->
+                    <div class="contato-info">
+                        <h3>Informações de Contato</h3>
+                        <div class="info-item">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <strong>Endereço</strong>
+                                <p>Largo do Bodegão, 46 – Santa Cruz, Rio de Janeiro – RJ</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">📞</span>
+                            <div>
+                                <strong>Telefone</strong>
+                                <p>(21) 2333-0000 (Genérico)</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">✉️</span>
+                            <div>
+                                <strong>E-mail</strong>
+                                <p>contato@faetecsantacruz.rj.gov.br (Genérico)</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Espaço para Mapa Estático -->
+                        <div class="mapa-placeholder">
+                            <h4 style="margin-top: 1rem; color: var(--color-dark);">Localização</h4>
+                            <p style="font-size: 0.9rem; color: #666;">Espaço reservado para um mapa estático ou iframe do Google Maps.</p>
+                            <div style="width: 100%; height: 200px; background-color: var(--color-dark-secondary); border-radius: 8px; margin-top: 0.5rem; display: flex; align-items: center; justify-content: center; color: var(--color-light);">
+                                MAPA AQUI
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FAETEC Santa Cruz</h4>
+                    <p>Formação técnica de qualidade para o mercado de trabalho em tecnologia.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre o Curso</a></li>
+                        <li><a href="professores.html">Professores</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                        <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+                        <a href="#" class="social-icon" aria-label="YouTube">▶</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 FAETEC Santa Cruz – Curso de Informática. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
